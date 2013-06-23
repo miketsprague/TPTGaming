@@ -126,9 +126,13 @@ DJANGO_APPS = (
     'django.contrib.admin',
 )
 
-THIRD_PARTY_APPS = ()
+THIRD_PARTY_APPS = (
+    'south',
+)
 
-LOCAL_APPS = ()
+LOCAL_APPS = (
+    'gaming',
+)
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 
